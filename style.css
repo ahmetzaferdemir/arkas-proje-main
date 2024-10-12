@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif, serif;
+}
+
+.nav-div {
+    height: max-content;
+    /*background-color: rgb(44, 44, 192);*/
+}
+
+.menu-links {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.nav-item .nav-link:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+.nav-item .nav-link:active {
+    color: white;
+}
+
+.logout-button {
+    margin: 50px 0px 20px 0px;
+}
