@@ -6,8 +6,7 @@
 }
 
 .nav-div {
-    height: max-content;
-    /*background-color: rgb(44, 44, 192);*/
+    background-color: rgb(180, 180, 180);
 }
 
 .menu-links {
@@ -21,21 +20,22 @@
 
 .nav-item .nav-link {
     color: white;
-    font-weight: bold;
+    font-size: 15px;
     padding: 10px;
     border-radius: 15px;
 }
 
-
 .nav-item .nav-link:hover {
-    color: white;
-    background-color: darkblue;
-}
-
-.nav-item .nav-link:active {
-    color: white;
+    color: rgb(48, 48, 255);
+    background-color: white;
+    font-weight: bold;
 }
 
 .logout-button {
     margin: 50px 0px 20px 0px;
+}
+
+.header-and-button {
+    display: flex;
+    justify-content: space-between;
 }
